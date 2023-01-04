@@ -24,11 +24,13 @@ public class MazeGenerator
         for (int x = 0; x < cells.GetLength(0); x++)
         {
             cells[x, Height - 1].WallLeft = false;
+            cells[x, Height - 1].Floor = false;
         }
 
         for (int y = 0; y < cells.GetLength(1); y++)
         {
             cells[Width - 1, y].WallBottom = false;
+            cells[Width - 1, y].Floor = false;
         }
 
         RemoveWallsWithBacktracker(cells);

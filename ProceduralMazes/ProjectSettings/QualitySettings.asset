@@ -18,10 +18,10 @@ QualitySettings:
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 1
-    blendWeights: 4
+    skinWeights: 4
     textureQuality: 0
     anisotropicTextures: 0
-    antiAliasing: 8
+    antiAliasing: 0
     softParticles: 0
     softVegetation: 1
     realtimeReflectionProbes: 0
@@ -40,6 +40,8 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
+    customRenderPipeline: {fileID: 11400000, guid: 0b3eb9fa2bfcbe74d93aca6f4276686a,
+      type: 2}
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
     Android: 0
@@ -48,6 +50,7 @@ QualitySettings:
     PS4: 0
     PSM: 0
     PSP2: 0
+    Server: 0
     Standalone: 0
     Tizen: 0
     WebGL: 0
