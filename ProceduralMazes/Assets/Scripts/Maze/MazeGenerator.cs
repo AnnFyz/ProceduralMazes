@@ -7,8 +7,10 @@ public class MazeGenerator
     public int Width = 50;
     public int Height = 50;
 
-    public Maze GenerateMaze()
+    public Maze GenerateMaze(int width, int height)
     {
+        Width = width;
+        Height = height;
         MazeGeneratorCell[,] cells = new MazeGeneratorCell[Width, Height];
 
         for (int x = 0; x < cells.GetLength(0); x++)

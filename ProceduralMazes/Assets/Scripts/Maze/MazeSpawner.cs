@@ -3,6 +3,8 @@ using Unity.AI.Navigation;
 
 public class MazeSpawner : MonoBehaviour
 {
+    [SerializeField] int width;
+    [SerializeField] int height;
     public Cell CellPrefab;
     public Vector3 CellSize = new Vector3(1,1,0);
     public HintRenderer HintRenderer;
@@ -20,7 +22,7 @@ public class MazeSpawner : MonoBehaviour
     void SpawnMaze()
     {
         MazeGenerator generator = new MazeGenerator();
-        maze = generator.GenerateMaze();
+        maze = generator.GenerateMaze(width, height);
 
         for (int x = 0; x < maze.cells.GetLength(0); x++)
         {
@@ -35,4 +37,5 @@ public class MazeSpawner : MonoBehaviour
 
         HintRenderer.DrawPath();
     }
+
 }
