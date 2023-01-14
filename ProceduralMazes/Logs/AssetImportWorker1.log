@@ -232,3 +232,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 319.452546 seconds.
+  path: Assets/MenusPack/Fonts/Lato
+  artifactKey: Guid(1b904df48ec6dac4981e8a717ccf0435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenusPack/Fonts/Lato using Guid(1b904df48ec6dac4981e8a717ccf0435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6694332c823c863f94bd71a6544c9d9d') in 0.012464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.628383 seconds.
+  path: Assets/MenusPack/Fonts/Lato/Lato-BlackItalic.ttf
+  artifactKey: Guid(dcebc2e59fb88ae498b1f6c123424ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenusPack/Fonts/Lato/Lato-BlackItalic.ttf using Guid(dcebc2e59fb88ae498b1f6c123424ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ee741f97e2c2ae2621b8ff85a277c5') in 0.420813 seconds 

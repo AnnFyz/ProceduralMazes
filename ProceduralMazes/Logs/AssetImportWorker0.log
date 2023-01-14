@@ -232,3 +232,69 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 315.967480 seconds.
+  path: Assets/MenusPack/Fonts
+  artifactKey: Guid(9797bae6cae3000479830fd63df2104e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenusPack/Fonts using Guid(9797bae6cae3000479830fd63df2104e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e8816cb25221eb7615075192a00867') in 0.024876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007731 seconds.
+  path: Assets/MenusPack/Fonts/Lato-BlackItalic SDF.asset
+  artifactKey: Guid(c3489df206735e04196644364db27ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenusPack/Fonts/Lato-BlackItalic SDF.asset using Guid(c3489df206735e04196644364db27ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760607f24f28c23ecc8e4a56dd9683e4') in 0.763206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.353558 seconds.
+  path: Assets/MenusPack/Fonts/Lato/Lato-Black.ttf
+  artifactKey: Guid(5bfc65086af63b14f88dc9626c95468c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenusPack/Fonts/Lato/Lato-Black.ttf using Guid(5bfc65086af63b14f88dc9626c95468c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018a33d2c451887db7bd15afcbcc6cbe') in 0.031954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/MenusPack/Fonts/Lato/Lato-Regular.ttf
+  artifactKey: Guid(194e1581643f5e04cb8ac58ea83ad2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenusPack/Fonts/Lato/Lato-Regular.ttf using Guid(194e1581643f5e04cb8ac58ea83ad2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafe84118143befdd4142c13f087bd61') in 0.020270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MenusPack/Fonts/Lato/Lato-Bold.ttf
+  artifactKey: Guid(0a436638ba8c54741a53cf27fbb7d0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenusPack/Fonts/Lato/Lato-Bold.ttf using Guid(0a436638ba8c54741a53cf27fbb7d0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fcdb882f2bba93ac0adc6f04ec97ba') in 0.019083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MenusPack/Fonts/Lato/Lato-Light.ttf
+  artifactKey: Guid(a83246df6f996374a98d0232fc3ac9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenusPack/Fonts/Lato/Lato-Light.ttf using Guid(a83246df6f996374a98d0232fc3ac9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b728644ae9cbe0fea1cd4e8d18e2b4') in 0.022072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MenusPack/Fonts/Lato/Lato-LightItalic.ttf
+  artifactKey: Guid(b32eea9fc361a3a43b4a9c780babc017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenusPack/Fonts/Lato/Lato-LightItalic.ttf using Guid(b32eea9fc361a3a43b4a9c780babc017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd484b902e4a4c209cf31d7d15d2622c') in 0.019655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/MenusPack/Fonts/Lato/Lato-Thin.ttf
+  artifactKey: Guid(60fecffd9f14cd64cb9ad2356137850c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenusPack/Fonts/Lato/Lato-Thin.ttf using Guid(60fecffd9f14cd64cb9ad2356137850c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e3a8fe1d937d7110952ebe12fb822e') in 0.023439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MenusPack/Fonts/Lato/Lato-Italic.ttf
+  artifactKey: Guid(71f52b627cf6f3c4998ac9749b50506f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenusPack/Fonts/Lato/Lato-Italic.ttf using Guid(71f52b627cf6f3c4998ac9749b50506f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be08a494025c3425b3f42ecf22e81778') in 0.020515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/MenusPack/Fonts/Lato/Lato-ThinItalic.ttf
+  artifactKey: Guid(ab79ee47e0943e9428f1e104ec016f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenusPack/Fonts/Lato/Lato-ThinItalic.ttf using Guid(ab79ee47e0943e9428f1e104ec016f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb9a1adfd6037d518a9e6e2f2725157') in 0.026453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/MenusPack/Fonts/Lato/Lato-BoldItalic.ttf
+  artifactKey: Guid(accf7821badee2347a46c5026b657fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenusPack/Fonts/Lato/Lato-BoldItalic.ttf using Guid(accf7821badee2347a46c5026b657fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f712515f20b9c34e7ce907c1c930f24') in 0.030528 seconds 
