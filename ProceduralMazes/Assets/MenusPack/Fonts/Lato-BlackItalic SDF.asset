@@ -64,7 +64,8 @@ MonoBehaviour:
   materialHashCode: 27764919
   m_Version: 1.1.0
   m_SourceFontFileGUID: dcebc2e59fb88ae498b1f6c123424ac1
-  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: dcebc2e59fb88ae498b1f6c123424ac1, type: 3}
+  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: dcebc2e59fb88ae498b1f6c123424ac1,
+    type: 3}
   m_SourceFontFile: {fileID: 0}
   m_AtlasPopulationMode: 0
   m_FaceInfo:
@@ -2631,8 +2632,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Lato-BlackItalic SDF Material
   m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
-  m_ValidKeywords:
-  - GLOW_ON
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
