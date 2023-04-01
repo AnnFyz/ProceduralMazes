@@ -62,16 +62,15 @@ public class CameraController : MonoBehaviour
         }
     }
 
-    [Button]
-    public void SaveCameraData()
+
+    public void SaveCameraData(float x , float z, float speed)
     {
-        PlayerPrefs.SetFloat(XKey, pos.x);
-        PlayerPrefs.SetFloat(ZKey, pos.z);
-        PlayerPrefs.SetFloat(PanSpeedKey, panSpeed);
+        PlayerPrefs.SetFloat(XKey, x);
+        PlayerPrefs.SetFloat(ZKey, z);
+        PlayerPrefs.SetFloat(PanSpeedKey, speed);
     }
 
 
-    [Button]
     public void LoadCameraData()
     {
         pos.x = PlayerPrefs.GetFloat(XKey, 0);
