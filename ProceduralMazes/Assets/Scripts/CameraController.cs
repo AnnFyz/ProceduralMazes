@@ -11,7 +11,7 @@ public class CameraController : MonoBehaviour
     [SerializeField] float scrollSpeed = 20f;
     [SerializeField] float minY = 20f;
     [SerializeField] float maxY = 120f;
-    public Vector3 pos;
+    private Vector3 pos;
     [SerializeField] CameraParametersSO cameraParSO;
     [SerializeField] string XKey = "XKey";
     [SerializeField] string ZKey = "ZKey";
@@ -47,8 +47,8 @@ public class CameraController : MonoBehaviour
             float scroll = Input.GetAxis("Mouse ScrollWheel");
             pos.y -= scroll * scrollSpeed * 100f * Time.deltaTime;
 
-            pos.z = Mathf.Clamp(pos.z, -panLimit.y, panLimit.y);
-            pos.x = Mathf.Clamp(pos.x, -panLimit.x, panLimit.x);
+            //pos.z = Mathf.Clamp(pos.z, -panLimit.y, panLimit.y);
+           // pos.x = Mathf.Clamp(pos.x, -panLimit.x, panLimit.x);
 
             transform.position = pos;
         }

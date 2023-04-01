@@ -11,19 +11,28 @@ public class CameraDataManager : MonoBehaviour
     public GameObject XInputField;
     public GameObject ZInputField;
     public GameObject camSpeedInputField;
-    public float x;
-    public float z;
-    public float panSpeed;
+    float x;
+    float z;
+    float panSpeed;
+    public GameObject errorMessage;
 
     public void StoreData()
     {
-        x = float.Parse(XInputField.GetComponent<TMP_InputField>().text.ToString());
-        z = float.Parse(ZInputField.GetComponent<TMP_InputField>().text.ToString());
-        panSpeed = float.Parse(camSpeedInputField.GetComponent<TMP_InputField>().text.ToString());
+        bool tryX = float.TryParse(XInputField.GetComponent<TMP_InputField>().text.ToString(), out x);
+        bool tryZ = float.TryParse(ZInputField.GetComponent<TMP_InputField>().text.ToString(), out z);
+        bool tryPanSpeed = float.TryParse(camSpeedInputField.GetComponent<TMP_InputField>().text.ToString(), out panSpeed);
         Debug.Log("X " + x);
         Debug.Log("Z " + z);
 
-        camera.SaveCameraData(x, z, panSpeed);
+        if (tryX || tryZ || tryPanSpeed)
+        {
+            camera.SaveCameraData(x, z, panSpeed);
+            errorMessage.SetActive(false);
+        }
+        else
+        {
+            errorMessage.SetActive(true);
+        }
 
     }
 
