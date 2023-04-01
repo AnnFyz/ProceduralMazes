@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using NaughtyAttributes;
 
 public class CameraController : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class CameraController : MonoBehaviour
     [SerializeField] float maxY = 120f;
     public Vector3 pos;
     [SerializeField] CameraParametersSO cameraParSO;
+    [SerializeField] string XKey = "XKey";
+    [SerializeField] string ZKey = "ZKey";
+    [SerializeField] string PanSpeedKey = "PanSpeedKey";
 
     private void Awake()
     {
@@ -56,5 +60,22 @@ public class CameraController : MonoBehaviour
             panSpeed = cameraParSO.cameraSpeed;
             transform.position = pos;
         }
+    }
+
+    [Button]
+    public void SaveCameraData()
+    {
+        PlayerPrefs.SetFloat(XKey, pos.x);
+        PlayerPrefs.SetFloat(ZKey, pos.z);
+        PlayerPrefs.SetFloat(PanSpeedKey, panSpeed);
+    }
+
+
+    [Button]
+    public void LoadCameraData()
+    {
+        pos.x = PlayerPrefs.GetFloat(XKey, 0);
+        pos.z = PlayerPrefs.GetFloat(ZKey, 0);
+        panSpeed = PlayerPrefs.GetFloat(PanSpeedKey, 0);
     }
 }
