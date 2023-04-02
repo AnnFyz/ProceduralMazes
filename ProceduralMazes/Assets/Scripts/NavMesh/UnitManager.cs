@@ -7,6 +7,7 @@ using Cinemachine;
 
 public class UnitManager : MonoBehaviour
 {
+    public static Unit selectedUnit;
     public List<Unit> selectedUnits = new List<Unit>();
     public LayerMask unitMask;
     public LayerMask groundMask;
@@ -39,6 +40,7 @@ public class UnitManager : MonoBehaviour
                 {
                     selectedUnits.Add(unit);
                     unit.OnSelected();
+                    selectedUnit = unit;
                     //CameraMovement.followedTarget = unit.transform;
                 }
             }
