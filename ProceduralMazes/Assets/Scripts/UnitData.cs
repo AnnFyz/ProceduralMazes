@@ -19,7 +19,6 @@ public class UnitData : MonoBehaviour, ISaveable
         if (FileManager.WriteToFile("SaveData.dat", data.ToJson()))
         {
             Debug.Log("Save successful");
-            Debug.Log("X " + data.x);
         }
         else
         {
@@ -33,6 +32,10 @@ public class UnitData : MonoBehaviour, ISaveable
         data.x = agent.transform.position.x;
         data.y = agent.transform.position.y;
         data.z = agent.transform.position.z;
+
+        data.rotx = transform.rotation.x;
+        data.roty = transform.rotation.y;
+        data.rotx = transform.rotation.z;
     }
 
     public void LoadFromJsonData()
@@ -43,7 +46,6 @@ public class UnitData : MonoBehaviour, ISaveable
             data.LoadFromJson(json);
             LoadFromSaveData(data);
             Debug.Log("Load complete");
-            Debug.Log("X " + data.x);
         }
         else
         {
@@ -54,19 +56,13 @@ public class UnitData : MonoBehaviour, ISaveable
 
     public void LoadFromSaveData(SaveAndLoadUnitData data)
     {
-        //agent.updatePosition = false;
-        //agent.Stop();
-        //agent.isStopped = true;
-        //agent.transform.position = new Vector3(data.x, data.y, data.z);
-        //agent.ResetPath();
-        //agent.updatePosition = true;
-
-
         NavMeshHit hit;
         if (NavMesh.SamplePosition(new Vector3(data.x, data.y, data.z), out hit, Mathf.Infinity, NavMesh.AllAreas))
         {
             agent.Warp(hit.position);
         }
+
+        transform.rotation = Quaternion.Euler(data.rotx, data.roty, data.rotz);
     }
 
 

@@ -12,7 +12,11 @@ public class SaveAndLoadUnitData
         public float x;
         public float y;
         public float z;
-   // }
+    // }
+
+    public float rotx;
+    public float roty;
+    public float rotz;
 
     public string ToJson()
     {
